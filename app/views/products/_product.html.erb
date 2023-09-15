@@ -8,9 +8,9 @@
   <% end%>
   <div>
     <% if product.quantity <= 0 %>
-      <%= link_to '', class: 'btn soldout', disabled: true do %>
+      <div class="btn soldout">
         <%= fa_icon "", text: 'Sold Out' %> 
-      <% end %>
+      </div>
       <%= button_to add_item_cart_path(product_id: product.id), class: 'btn',
       disabled: true do %>
         <%= fa_icon "shopping-cart", text: 'Add' %> 
