@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 to learn Ruby on Rails and Stripe.
+A mini e-commerce application that sells plants, built to learn Rails 6.1 and Stripe.
 
 ## Setup
 
